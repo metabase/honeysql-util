@@ -1,4 +1,4 @@
-(defproject metabase/honeysql-util "1.0.0"
+(defproject metabase/honeysql-util "1.0.1"
   :description "Helpful utility functions for HoneySQL."
   :url "https://github.com/metabase/honeysql-util"
   :min-lein-version "2.5.0"
@@ -18,7 +18,7 @@
 
   :dependencies
   [[honeysql "0.9.4" :exclusions [org.clojure/clojurescript]]
-   [metabase/common "1.0.1"]
+   [metabase/common "1.0.2"]
    [prismatic/schema "1.1.11"]]
 
   :profiles

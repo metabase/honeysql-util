@@ -4,7 +4,7 @@
             [honeysql
              [core :as hsql]
              [format :as hformat]]
-            [metabase.common.pretty :refer [PrettyPrintable]]
+            [pretty.core :refer [PrettyPrintable]]
             [schema.core :as s])
   (:import honeysql.format.ToSql
            java.util.Locale))
